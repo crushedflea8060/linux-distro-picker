@@ -1,0 +1,58 @@
+header {
+    margin-top: -20px;
+    margin-right: -20px;
+    margin-left: -20px;
+    padding: 1em;
+    background-color: #333333;
+    border-bottom: 2px solid #0088CC;
+    color: #fff;
+    font: normal 100% sans-serif;
+}
+body {
+    background-color: #f6f9fc;
+    color: #222;
+    font: normal 100% sans-serif;
+    text-align: center;
+}
+
+h3 {
+    margin-top: .6em;
+}
+
+p {
+    margin: .33em 0 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+li {
+    display: inline;
+    margin-left: 20px;
+    padding-left: 1 px 1.5em;
+    font-size: 0.9em;
+}
+
+.survey {
+    margin: 1em auto;
+    margin-top: 2em;
+    padding: 3em;
+    background-color: #3ad;
+    border: 2px solid #08b;
+    color: #fff;
+    font: normal 100% sans-serif;
+}
+
+button {
+    margin: 1em;
+    padding: .5em 1em;
+    background-color: #3ad;
+    border: 2px solid #08b;
+    color: #fff;
+    font: normal 100% sans-serif;
+}
+
+input[type='radio']:checked {
+        accent-color: #08b;
+    }
+
+

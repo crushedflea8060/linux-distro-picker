@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Distro Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <h1>Distro Picker</h1>
+            <p>Pick the best Linux distribution for you, or maybe stick with Windows!</p>
+        </header>
+        
+        <div class="survey"> <!--start survey-->
+            <div class="q1">
+                <h3>What do you want to use your computer for, mainly?</h3>
+                <ul class="option">
+                    <li><input type="radio" name="q1" value="gaming"> <b>Gaming</b></li>
+                    <li><input type="radio" name="q1" value="programming"> <b>Programming</b></li>
+                    <li><input type="radio" name="q1" value="general"> <b>General Use</b></li>
+                </ul>
+            </div>
+            <div class="q2">
+                <h3>Do you prefer out of the box use or customization?</h3>
+                <ul class="option">
+                    <li><input type="radio" name="q2" value="Out of the box use"> <b>Out of the box use</b></li>
+                    <li><input type="radio" name="q2" value="Customization"> <b>Customization</b></li>
+                </ul>
+            </div>
+            <div class="q3">
+                <h3>Are you comfortable with the command line?</h3>
+                <ul class="option">
+                    <li><input type="radio" name="q3" value="yes"><b> Yes</b></li>
+                    <li><input type="radio" name="q3" value="no"><b>No</b></li>
+                </ul>
+
+            </div>
+            <div class="q4">
+                <h3>What level of performance does your PC have?</h3>
+                <ul class="option">
+                    <li><input type="radio" name="q4" value="high"> <b>High</b></li>
+                    <li><input type="radio" name="q4" value="medium"><b>Medium</b></li>
+                    <li><input type="radio" name="q4" value="low"><b>Low
+
+                    </b></li>
+                </ul>
+            </div>
+        </div> <!--stop survey-->
+        <button id="submit">Submit</button>
+    </body>
+</html>
