@@ -11,7 +11,7 @@ header {
 body {
     background-color: #f6f9fc;
     color: #222;
-    font: normal 100% sans-serif;
+    font: normal 88% sans-serif;
     text-align: center;
 }
 
@@ -29,37 +29,55 @@ p {
 }
 
 li {
-    display: inline;
+    display: flex;
+    flex:1;
+    margin: 0.5em;
+    justify-content: center;
     margin-left: 20px;
     padding-left: 1 px 1.5em;
     font-size: 0.9em;
+    padding-right: 4em;
 }
 
 .survey {
-    margin: 1em auto;
-    margin-top: 2em;
-    padding: 3em;
+    display: flex;
+    padding: 0.5em;
+    flex-direction: column;
+    margin: 0.5em auto;
     background-color: #3ad;
     border: 2px solid #08b;
     color: #fff;
     font: normal 100% sans-serif;
     border-radius: 10px;
+    width: max-content;
 }
 
 button {
-    margin: 1em;
-    padding: .5em 1em;
+    margin: 0.3em;
+    padding: 0.5em;
     background-color: #3ad;
     border: 2px solid #08b;
     border-radius: 10px;
     color: #fff;
     font: normal 100% sans-serif;
-    width: 10em;
-    height: 6em;
+    width: 5 em;
+    height: 3em;
 }
 
 input[type='radio']:checked {
         accent-color: #08b;
     }
+
+.results{
+    margin: 0.3em auto;
+    padding: 0.5em;
+    width: max-content;
+    background-color: #3ad;
+    border: 2px solid #08b;
+    color: #fff;
+    font: normal 100% sans-serif;
+    border-radius: 10px;
+    margin-top: 0.2em;
+}
 
 
