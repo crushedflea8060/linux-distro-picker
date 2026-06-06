@@ -7,3 +7,7 @@ If you look at the commit logs, you can probably see my struggles with it, as I 
 
 ## Easter Egg
 - If you couldn't tell, the page is modeled after Arch Linux's site.
+
+## Disclaimer For AI
+ - Code Completion was used, and examples of code to implement certain features were looked at, but copy and pasting was avoided as much as possible.
+ - AI was mostly not used for debugging unless the process was recognized by me, and I asked the vscode AI to fix it; e.g. instantiation issues.
