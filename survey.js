@@ -56,31 +56,40 @@ $(document).ready(function() {
 function getResult()
 {
     if(!(answer1 == null || answer2 == null || answer3 == null || answer4 == null)) {
+        let mirrorsLink = "example.com";
         if(answer1 === "gaming"){
             if(answer4 === "high"){
                 $('#distro').text("Windows 11 - since the bloat won't bottleneck you too much, and it has higher gaming support than Linux.")
+                mirrorsLink = "https://www.microsoft.com/en-us/windows/get-windows-11";
+                $('#mirrors').attr("href", mirrorsLink);
             }
             else {
                 $('#distro').text("Bazzite - it's a gaming focused distro that is very user friendly, and should run well on medium performance PCs.")
+                mirrorsLink = "https://bazzite.gg/";
             }
         }
         else if (answer1 === "programming"){
             if(answer2 === "oob"){
                 $('#distro').text("Ubuntu - it's a very user friendly distro with good support for programming, and is very easy to set up.")
+                    mirrorsLink = "https://ubuntu.com/download/desktop";
             }
             else {
                 $('#distro').text("Arch Linux - it's a very customizable distro that is great for programming, but it requires a lot of setup.")
+                mirrorsLink = "https://archlinux.org/download/";
             }
         }
         else if (answer1 === "general"){
             if(answer3 === true){
                 $('#distro').text("Fedora - it's a very user friendly distro that is great for general use, and has good support for the command line.")
+                mirrorsLink = "https://fedoraproject.org/download/";
             }
             else {
                 $('#distro').text("Linux Mint - it's a very user friendly distro that is great for general use, and has a very simple interface.")
+                mirrorsLink = "https://linuxmint.com/download.php";
             }
         }
-
+        // Set the mirror link for the recommended distro
+        $('#mirrors').attr("href", mirrorsLink);
     }
     else { 
         alert("Please answer all questions before submitting the survey.");
