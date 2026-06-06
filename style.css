@@ -15,6 +15,9 @@ body {
     text-align: center;
 }
 
+a {
+    color: #000;
+}
 h3 {
     margin-top: .6em;
 }
